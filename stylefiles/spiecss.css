@@ -1,0 +1,78 @@
+header{
+	background-image: url("../images/Experiment.jpg");
+	opacity: 0.8;
+	background-size: 1190px 450px;
+    background-repeat: no-repeat;
+	margin: 40px;
+	padding: 50px;
+}
+h1{
+	font-family: serif;
+	color: white;
+	text-shadow: 1px 1px 4px #4A4B0D, 0 0 30px #E19476, 0 0 5px #100C99;
+}
+
+body{
+	display: block;
+	text-align: left;
+	background: linear-gradient(#000  40%,#725462 50%, #CF8E2C 70%, #FFF 100%);
+	margin-left: 20px;
+}
+nav a{
+	/* To remove underline from the link */
+	text-decoration: none;
+	/* To shape the border */
+	/*-moz- : if using mozilla
+	 -webkit- : if using android,safari,mac;
+	 -ms-: internet explorer
+	 -o- opera mini for border radius; 
+	 HOWEVER, IN MOZILLA THERE'S NO NEED TO USE -moz-*/
+	border-radius: 20%;
+	/* for adding horizontal space*/
+	margin: 30px;
+	padding: 20px;
+	display: inline-block;
+	font-size: 20px;
+	width: 100px;    
+}
+#minwidth{
+	min-width:100px; width: auto !important; width: 100px; 
+}
+.active {
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	color: red;
+	padding: 20px;
+	margin: top;
+}
+section{
+	color: #FFFFFF;
+	font-family: Arial; 
+}
+h2,ol{
+	color: #FFF;
+}
+.h2work{
+	text-align: center;
+}
+.abc{
+	text-align: center;
+}
+.logopic{
+	background-image: url("../images/logo.png");
+	opacity: 0.8;
+    background-repeat: no-repeat;
+	margin: 70px;
+	padding: 100px;
+}
+.mycolorchange{
+	color: rgb(133,79,10);
+}
+nav a:hover{
+	height: 50px;
+    width: 100px;
+    transition-timing-function: linear;
+    transform: scale(2,3);
+    transition: width 2s, height 2s transform: 4s;
+}
+html {overflow-y: scroll;}
